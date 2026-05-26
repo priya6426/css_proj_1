@@ -1,0 +1,116 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+   padding: 15px;
+   width: 96%;
+   display: flex;
+}
+.part1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fbc50b;
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.content1{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    justify-content: start;
+}
+.logo{
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.description{
+    width: 370px;
+    font-size: 15px;
+    word-spacing: 4px;
+
+}
+.part2{
+    min-height: 100%;
+    width: 40%;
+    background-color: #fce8b5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+.title{
+    font-size: 140px;
+    font-weight: bolder;
+}
+.minititle{
+    letter-spacing: 8px;
+    font-weight: bolder;
+}
+.p2{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 100px;
+    
+}
+
+.pokeball{
+    position: absolute;
+    bottom: 0px;
+    left:5%;
+    width: 200px;
+}
+
+nav{
+     position: relative;
+}
+.nav-logo{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 30px;
+}
+.dots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 45px;
+    top: 50%;
+}
+.yellow-dot{
+background-color: #fbc50b;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+}
+.black-dot{
+background-color: black;
+height: 13px;
+width: 13px;
+border-radius: 50%;
+}
+
+.pikachu-img{
+    position: absolute;
+    left: 50%;
+    top:20%;
+}
